@@ -462,11 +462,11 @@ nav ul li:last-child{
 }
 
 
-
-@media screen and (max-width:768px){
+@media screen and (max-width:768px) {
     body{
         box-sizing: border-box;
     }
+
     nav{
         display: flex;
         justify-content: space-between;
@@ -503,6 +503,7 @@ nav ul li:last-child{
         display: flex;
         flex-direction: column;
     }
+
     .explanation{
         padding:0 45% 0 0;
         h1{
@@ -513,10 +514,11 @@ nav ul li:last-child{
             line-height: 28px;
         }
     }
+
     .plans{
         margin-right: 30%;
     }
-    }
+
     .explore{
         display: flex;
         flex-direction: column;
@@ -536,12 +538,13 @@ nav ul li:last-child{
             margin-bottom: 50px;
         }
     }
+
     .right-sec{
         img{
             width: 500px;
         }
     }
-
+    
     .text{
         h4{
             font-size: 20px;
@@ -555,9 +558,7 @@ nav ul li:last-child{
             width: 70px;
         }
     }
-    /* .vid{
-        margin: 0;
-    } */
+
     .overlay-text{
         position: relative;
         bottom: 10rem;
@@ -585,6 +586,7 @@ nav ul li:last-child{
         display: flex;
         flex-direction: column;
     }
+
     .mockup-section{
         background-color: #FF4300;
         margin:0;
@@ -594,16 +596,18 @@ nav ul li:last-child{
         padding: 10px 0;
         height: 30%;
     }
+
     .mockup-img{
         img{
             width: 300px;
             margin:0 40%;
         }
     }
+
     .mockup-card{
         margin: 100px 0 200px 0;
-        /* padding: 50px; */
     }
+
     .mockup-text{
         padding: 0 20px;
         width: 100%;
@@ -634,6 +638,7 @@ nav ul li:last-child{
     .info-img{
         margin-right: 30%;
     }
+
     .info-card{
         display: flex;
         flex-direction: column;
@@ -641,22 +646,27 @@ nav ul li:last-child{
         justify-content: center;
     }
 
-    .info-text ul{
+    .info-text{
         display: flex;
         flex-direction: column;
         li{
             margin: 10px 0;
         }
     }
+
     .region{
         text-align: start;
         margin-top: 50px;
     }
+
     .CR-page{
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
+
     .CR-list ul li:first-child{
         list-style: none;
     }
+
+}
