@@ -71,6 +71,8 @@ nav ul li:last-child{
     background-position: center;
     position: relative;
     padding-top: 120px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .hero-text{
@@ -126,6 +128,10 @@ nav ul li:last-child{
     }
 }
 
+.steps{
+    max-width: 1200px;
+    margin: auto;
+}
 .steps-grid{
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -182,6 +188,8 @@ nav ul li:last-child{
 
 .vid{
     position: relative;
+    max-width: 1200px;
+    margin: auto;
     video{
         width: 100%;
 
@@ -289,6 +297,8 @@ nav ul li:last-child{
     text-align: center;
     color: white;
     padding: 100px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .impact-text1{
@@ -465,6 +475,8 @@ nav ul li:last-child{
 @media screen and (max-width:768px) {
     body{
         box-sizing: border-box;
+        max-width: 1200px;
+        margin: auto;
     }
 
     nav{
