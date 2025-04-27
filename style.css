@@ -325,8 +325,8 @@ nav ul li:last-child{
 .mockup-card{
     position: relative;
     background-color: #FF4300;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
     margin: 300px 0;
     height: 400px;
     width: 85%;
