@@ -776,6 +776,7 @@ nav ul li:last-child{
         margin-top: 50px;
         font-size: 12px;
         line-height: 14px;
+        padding: 0 10px;
     }
 
     .CR-page{
